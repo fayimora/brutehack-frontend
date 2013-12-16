@@ -1,6 +1,6 @@
 import Resolver from 'resolver';
 
-var App = Ember.Application.extend({
+var BruteHack = Ember.Application.extend({
   LOG_ACTIVE_GENERATION: true,
   LOG_MODULE_RESOLVER: true,
   LOG_TRANSITIONS: true,
@@ -19,4 +19,4 @@ Ember.RSVP.configure('onerror', function(error) {
   }
 });
 
-export default App;
+export default BruteHack;
