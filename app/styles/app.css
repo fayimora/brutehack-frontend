@@ -1,8 +1,29 @@
-/* Put your CSS here */
-/* html, body { */
-/*     margin: 20px; */
-/* } */
-/*  */
-/* @keyframes domChanged { from { background: yellow; } } */
-/* @-webkit-keyframes domChanged { from { background: yellow; } } */
-/* .ember-view { animation: domChanged 1s; -webkit-animation: domChanged 1s; } */
+.rated-user, .rated-user:link, .rated-user:visited, .rated-user:hover, .rated-user:active {
+  text-decoration: none !important;
+  font-weight: bold;
+}
+
+.user-red {
+  color: red !important;
+}
+
+.user-orange {
+  color: #FF8C00 !important;
+}
+
+.user-violet {
+  color: #A0A !important;
+}
+
+.user-blue {
+  color: blue !important;
+}
+
+.user-green {
+  color: green !important;
+}
+
+.user-gray {
+  color: gray !important;
+}
+
