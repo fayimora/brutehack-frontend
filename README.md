@@ -2,8 +2,12 @@
 
 # Brutehack
 
-Brutehack is an open source application thatis built mostly for colleges/universities to host
+BruteHack is an open source application that is built mostly for colleges/universities to host
 programming competitions.
+
+## How to run
+
+Coming soon...
 
 ## License
 
