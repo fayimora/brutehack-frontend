@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fayimora/brutehack-frontend.png)](https://travis-ci.org/fayimora/brutehack-frontend)
+
 # Brutehack
 
 Brutehack is an open source application thatis built mostly for colleges/universities to host
