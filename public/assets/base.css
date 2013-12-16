@@ -26,11 +26,11 @@ select,
 textarea {
   font-family: 'Open Sans';
 }
-[class^="icon-"]:not(.ui-icon),
-[class*="icon-"]:not(.ui-icon) {
+[class^="fa-"]:not(.ui-icon),
+[class*="fa-"]:not(.ui-icon) {
   background: none;
 }
-[class^="icon-"] {
+[class^="fa-"] {
   background: none\9;
 }
 .dropdown .dropdown-menu {
@@ -695,8 +695,8 @@ h6 {
   line-height: 18px;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
-.widget .widget-header [class^="icon-"],
-.widget .widget-header [class*=" icon-"] {
+.widget .widget-header [class^="fa-"],
+.widget .widget-header [class*=" fa-"] {
   display: inline-block;
   margin-top: -3px;
   margin-left: 13px;
