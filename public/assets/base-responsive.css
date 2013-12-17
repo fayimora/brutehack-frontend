@@ -1,22 +1,4 @@
 /*------------------------------------------------------------------
-
-[Responsive Stylesheet]
-
-Project:	Base Admin
-Version:	3.0
-Last change:	09/04/2013
-Assigned to:	Rod Howard (rh)
-
-
-[Table of contents]
-
-
-*** Any customizations made to this should be added to the custom.css
-stylesheet in order to separate your customizations and make 
-upgrading in the future easier. ***
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
 [1. Max Width: 480px]
 */
 @media (max-width: 480px) {
