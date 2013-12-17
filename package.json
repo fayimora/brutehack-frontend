@@ -1,5 +1,5 @@
 {
-  "name": "app-kit",
+  "name": "BruteHack",
   "namespace": "appkit",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
