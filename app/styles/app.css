@@ -4,29 +4,30 @@
 }
 
 .user-red {
-  color: red !important;
+  color: red;
 }
 
 .user-orange {
-  color: #FF8C00 !important;
+  color: #FF8C00;
 }
 
 .user-violet {
-  color: #A0A !important;
+  color: #A0A;
 }
 
 .user-blue {
-  color: blue !important;
+  color: blue;
 }
 
 .user-green {
-  color: green !important;
+  color: green;
 }
 
 .user-gray {
-  color: gray !important;
+  color: gray;
 }
 
+/* Style active links in the sub navigation*/
 .subnavbar .mainnav > li.open > a {
   text-decoration: none;
 }
