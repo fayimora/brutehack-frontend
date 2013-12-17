@@ -19,4 +19,8 @@ Ember.RSVP.configure('onerror', function(error) {
   }
 });
 
+Ember.LinkView.reopen({
+  attributeBindings: ['data-toggle']
+});
+
 export default BruteHack;

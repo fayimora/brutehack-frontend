@@ -7,7 +7,7 @@
         <span class="sr-only">Toggle navigation</span>
         <i class="icon-cog"></i>
       </button>
-      <a class="navbar-brand" href="/">BruteHack <sup>alpha</sup></a>
+      {{#link-to '' class="navbar-brand"}} BruteHack <sup>alpha</sup> {{/link-to}}
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -15,34 +15,34 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
 
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-          <i class="icon-cog"></i>
-          Settings
-          <b class="caret"></b>
-        </a>
+      {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
+        <i class="icon-cog"></i>
+        Settings
+        <b class="caret"></b>
+      {{/link-to}}
 
         <ul class="dropdown-menu">
-          <li><a href="#">Account Settings</a></li>
-          <li><a href="#">Privacy Settings</a></li>
+          <li>{{link-to 'Account Settings'}}</li>
+          <li>{{link-to 'Privacy Settings'}}</li>
           <li class="divider"></li>
-          <li><a href="#">Help</a></li>
+          <li>{{link-to 'Help'}}</li>
         </ul>
 
         </li>
 
         <li class="dropdown">
 
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
           <i class="icon-user"></i>
           Fayimora Femi-Balogun
           <b class="caret"></b>
-        </a>
+        {{/link-to}}
 
         <ul class="dropdown-menu">
-          <li><a href="#">My Profile</a></li>
-          <li><a href="#">My Groups</a></li>
+          <li>{{link-to 'My Profile'}}</li>
+          <li>{{link-to 'My Groups'}}</li>
           <li class="divider"></li>
-          <li><a href="#">Logout</a></li>
+          <li>{{link-to 'Logout'}}</li>
         </ul>
 
         </li>
