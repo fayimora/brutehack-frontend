@@ -27,3 +27,14 @@
   color: gray !important;
 }
 
+.subnavbar .mainnav > li.open > a {
+  text-decoration: none;
+}
+.subnavbar .mainnav > li > a.active {
+  background: #333;
+  color: #F90;
+}
+.subnavbar .mainnav > li > a.active .caret {
+  border-top-color: #ff9900;
+  border-bottom-color: #ff9900;
+}
