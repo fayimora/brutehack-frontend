@@ -4,6 +4,10 @@ APPDIR="/Users/fayimora/Code/brutehack-frontend"
 PATCHDIR="/tmp/eakpatch"
 EAKDIR="/tmp/ember-app-kit-master"
 
+cd ${EAKDIR}
+git pull origin master
+cd ${APPDIR}
+
 # first generate patches of important files
 FILES="bower.json package.json Gruntfile.js karma.conf.js .jshintrc .bowerrc" # app/app.js app/adapters/application.js"
 
