@@ -7,7 +7,11 @@ programming competitions. This repository is just the frontend(Ember.js applicat
 
 ## How to run
 
-Coming soon...
+- Install nodejs
+- Clone this repository
+- run `npm install -g bower`
+- run `npm install`
+- run `grunt server` or `grunt server:dist` for a built version of the project
 
 ## License
 
