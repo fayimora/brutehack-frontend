@@ -12,4 +12,4 @@ Coming soon...
 ## License
 
 Copyright 2013 by Fayimora Femi-Balogun and licensed under the MIT License. See included
-[LICENSE](/fayimora/brutehack-frontend/blob/master/LICENSE) file for details.
+[LICENSE](https://github.com/fayimora/brutehack-frontend/blob/master/LICENSE) file for details.
