@@ -4,4 +4,8 @@ Router.map(function() {
   this.route("faqs");
 });
 
+Router.reopen({
+  location: 'history'
+});
+
 export default Router;
