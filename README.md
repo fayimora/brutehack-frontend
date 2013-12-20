@@ -13,6 +13,16 @@ programming competitions. This repository is just the frontend(Ember.js applicat
 - run `npm install`
 - run `grunt server` or `grunt server:dist` to run a built version of the project
 
+## Contributing
+
+I very much welcome contributions. All you have to do is:
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 ## License
 
 Copyright 2013 by Fayimora Femi-Balogun and licensed under the MIT License. See included
