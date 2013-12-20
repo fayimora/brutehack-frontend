@@ -39,3 +39,13 @@
   border-top-color: #ff9900;
   border-bottom-color: #ff9900;
 }
+
+/* FAQ Styles*/
+.btn-support-ask {
+  font-size: 22px; padding: 14px 0; font-weight: 600; margin-bottom: .75em;
+}
+
+.btn-support-contact {
+  padding: 14px 0; font-size: 22px; font-weight: 600;
+}
+
