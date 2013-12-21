@@ -13,7 +13,7 @@
     "start": "grunt server",
     "build": "grunt build:debug",
     "test": "grunt test:ci",
-    "postinstall": "bower install"
+    "postinstall": "bower install && grunt dist"
   },
   "repository": {
     "type": "git",
@@ -21,8 +21,10 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
+    "request": "~2.27.0",
     "express": "~3.4.2",
+    "express-namespace": "~0.1.1",
     "lockfile": "~>0.3.0",
     "bower": "~1.2.7",
     "grunt": "~0.4.2",
@@ -41,14 +43,14 @@
     "grunt-concurrent": "~0.3.1",
     "grunt-usemin": "~0.1.12",
     "grunt-rev": "~0.1.0",
-    "grunt-ember-templates": "~0.4.18",
+    "grunt-ember-templates": "~0.4.18"
+  },
+  "devDependencies": {
     "grunt-karma": "~0.5",
     "karma": "~0.9.4",
     "karma-qunit": "~0.0.3",
     "karma-coverage": "~0.0.3",
     "karma-phantomjs-launcher": "~0.0.2",
-    "express-namespace": "~0.1.1",
-    "request": "~2.27.0",
     "connect-livereload": "~0.3.1",
     "loom-generators-ember-appkit": "~1.0.2"
   }
