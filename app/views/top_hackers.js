@@ -1,4 +1,4 @@
-var TopHackers = Ember.View.create({
+var TopHackers = Ember.View.extend({
   templateName: 'views/top-hackers'
 });
 
