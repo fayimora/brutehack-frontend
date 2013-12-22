@@ -1,78 +1,72 @@
-<div class="main">
+<div class="row">
 
-  <div class="container">
+  <div class="col-md-8">
 
-    <div class="row">
+    <div class="widget stacked">
 
-      <div class="col-md-8">
+      <div class="widget-header">
+        <i class="fa fa-thumb-tack"></i>
+        <h3>Frequently Asked Questions</h3>
+      </div> <!-- /widget-header -->
 
-        <div class="widget stacked">
+      <div class="widget-content">
 
-          <div class="widget-header">
-            <i class="fa fa-thumb-tack"></i>
-            <h3>Frequently Asked Questions</h3>
-          </div> <!-- /widget-header -->
+        <ol class="faq-list">
 
-          <div class="widget-content">
+          <li>
+          <h4>How can I get my own domain name?</h4>
+          <p>The Internet Corporation for Assigned Names and Numbers (ICANN) maintains a list of
+          accredited registrars . Any of the companies on this list can register a domain name for
+          you..</p>
 
-            <ol class="faq-list">
+          </li>
 
-              <li>
-              <h4>How can I get my own domain name?</h4>
-              <p>The Internet Corporation for Assigned Names and Numbers (ICANN) maintains a list of
-              accredited registrars . Any of the companies on this list can register a domain name for
-              you..</p>
+          <li>
+          <h4>How can I block my hosting service's advertisements?</h4>
+          <p>Check the Terms of Service (TOS) agreement for your hosting service. It almost
+          certainly prohibits interfering with the advertisements they add to your web pages. If you
+          use some trick to block their advertisements on your own, then your hosting service may
+          delete your account for violating its TOS.</p>
 
-              </li>
+          </li>
 
-              <li>
-              <h4>How can I block my hosting service's advertisements?</h4>
-              <p>Check the Terms of Service (TOS) agreement for your hosting service. It almost
-              certainly prohibits interfering with the advertisements they add to your web pages. If you
-              use some trick to block their advertisements on your own, then your hosting service may
-              delete your account for violating its TOS.</p>
+          <li>
 
-              </li>
+          <h4>How do I redirect someone to another page?</h4>
+          <p>The most reliable way is to configure the server to send out a redirection instruction
+          when the old URL is requested. Then the browser will automatically get the new URL. This
+          is the fastest and most efficient way, and is the only way described here that can
+          convince indexing robots to phase out the old URL. For configuration details consult your
+          server admin or documentation (with NCSA or Apache servers, use a Redirect statement in
+          .htaccess).</p>
 
-              <li>
+          <p>If you can't set up a redirect, there are other possibilities. These are inferior
+          because they tell the search engines that there's still a page at the old location, not
+          that the page has moved to a new location. But if it's impossible for you to configure
+          redirection at your server, here are two alternatives:</p>
+          </li>
 
-              <h4>How do I redirect someone to another page?</h4>
-              <p>The most reliable way is to configure the server to send out a redirection instruction
-              when the old URL is requested. Then the browser will automatically get the new URL. This
-              is the fastest and most efficient way, and is the only way described here that can
-              convince indexing robots to phase out the old URL. For configuration details consult your
-              server admin or documentation (with NCSA or Apache servers, use a Redirect statement in
-              .htaccess).</p>
+        </ol>
 
-              <p>If you can't set up a redirect, there are other possibilities. These are inferior
-              because they tell the search engines that there's still a page at the old location, not
-              that the page has moved to a new location. But if it's impossible for you to configure
-              redirection at your server, here are two alternatives:</p>
-              </li>
+      </div> <!-- /widget-content -->
 
-            </ol>
+    </div> <!-- /widget -->
 
-          </div> <!-- /widget-content -->
-
-        </div> <!-- /widget -->
-
-      </div> <!-- /span8 -->
+  </div> <!-- /span8 -->
 
 
 
-      <div class="col-md-4">
+  <div class="col-md-4">
 
-        <div class="widget widget-plain">
+    <div class="widget widget-plain">
 
-          <div class="widget-content">
-            {{link-to 'Ask A Question' '' class="btn btn-lg btn-block btn-primary btn-support-ask"}}
-            {{link-to 'Contact Support' '' class="btn btn-lg btn-block btn-default btn-support-contact"}}
-          </div> <!-- /widget-content -->
+      <div class="widget-content">
+        {{link-to 'Ask A Question' '' class="btn btn-lg btn-block btn-primary btn-support-ask"}}
+        {{link-to 'Contact Support' '' class="btn btn-lg btn-block btn-default btn-support-contact"}}
+      </div> <!-- /widget-content -->
 
-        </div> <!-- /widget -->
+    </div> <!-- /widget -->
 
-      </div> <!-- /row -->
+  </div> <!-- /row -->
 
-    </div>
-  </div>
 </div>
