@@ -16,9 +16,9 @@ test('renders with required content', function(){
     var topHackers = find('div.top-hackers > div.widget-header > h3');
     var editorials = find('div.recent-editorials > div.widget-header > h3');
 
-    equal(title.text(), 'BruteHack alpha');
-    equal(recentNews.text(), 'Recent News');
-    equal(topHackers.text(), 'Top Brute Hackers');
-    equal(editorials.text(), 'Recent Editorials');
+    equal(title.text(), 'BruteHack alpha', "title is 'BruteHack alpha'");
+    equal(recentNews.text(), 'Recent News', 'page contains recent news widget');
+    equal(topHackers.text(), 'Top Brute Hackers', 'page contains top hackers widget');
+    equal(editorials.text(), 'Recent Editorials', 'page contains recent editorials widget');
   });
 });

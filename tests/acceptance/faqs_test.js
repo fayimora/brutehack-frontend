@@ -15,8 +15,8 @@ test('renders the necessary content', function(){
     var askButton = find('a.btn.btn-support-ask');
     var contactButton = find('a.btn.btn-support-contact');
 
-    equal(faqsHeader.text(), 'Frequently Asked Questions');
-    equal(askButton.text(), 'Ask A Question');
-    equal(contactButton.text(), 'Contact Support');
+    equal(faqsHeader.text(), 'Frequently Asked Questions', "'Frequently Asked Questions' widget exists");
+    equal(askButton.text(), 'Ask A Question', "'Ask A Question' button exists");
+    equal(contactButton.text(), 'Contact Support', "'Contact Support' button exists");
   });
 });
