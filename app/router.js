@@ -4,6 +4,8 @@ Router.map(function() {
   this.route("faqs");
   this.route("rankings");
   this.route("login");
+
+  this.resource("contests");
 });
 
 Router.reopen({
