@@ -8,8 +8,4 @@ Router.map(function() {
   this.resource("contests");
 });
 
-Router.reopen({
-  location: 'history'
-});
-
 export default Router;
