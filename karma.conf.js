@@ -43,7 +43,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit'
-    reporters: 'coverage',
+    reporters: ['coverage', 'osx'],
 
     coverageReporter: {
       type : ['text'],

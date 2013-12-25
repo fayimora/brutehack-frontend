@@ -51,7 +51,8 @@
     "express-namespace": "~0.1.1",
     "request": "~2.27.0",
     "connect-livereload": "~0.3.1",
-    "loom": "~3.1.2"
+    "loom": "~3.1.2",
+    "karma-osx-reporter": "~0.0.4"
   },
   "dependencies": {
     "loom-generators-ember-appkit": "~1.0.2"
