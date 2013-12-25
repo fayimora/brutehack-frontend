@@ -47,6 +47,7 @@
     "karma-qunit": "~0.0.3",
     "karma-coverage": "~0.0.3",
     "karma-phantomjs-launcher": "~0.0.2",
+    "karma-osx-reporter": "~0.0.4",
     "express-namespace": "~0.1.1",
     "request": "~2.27.0",
     "connect-livereload": "~0.3.1",
