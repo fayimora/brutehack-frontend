@@ -21,8 +21,8 @@
 
         {{#each}}
           <tr>
-            <td><h4>{{name}}</h4> </td>
-            <td>{{starts}}</td>
+            <td><h4>{{#link-to 'contests.contest' this}} {{name}} {{/link-to}}</h4> </td>
+            <td>{{this.starts}}</td>
             <td>{{duration}}</td>
             <td>
               <a href="" role="button" class="btn btn-success">Register</a><br /><br />
