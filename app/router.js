@@ -5,8 +5,9 @@ Router.map(function() {
   this.route("rankings");
   this.route("login");
 
-  this.resource('contests');
-  this.resource('contest', {path: 'contests/:contest_id'});
+  this.resource('contests', function () {
+    this.route('contest', {path: ':contest_id'});
+  });
 });
 
 export default Router;

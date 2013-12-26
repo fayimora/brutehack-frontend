@@ -1,0 +1,89 @@
+<div class="col-md-8">
+  <div class="widget stacked widget-table action-table upcoming-contests">
+
+    <div class="widget-header">
+      <i class="fa fa-th-list"></i>
+      <h3>Current and Upcoming Contests</h3>
+    </div> <!-- /widget-header -->
+
+    <div class="widget-content">
+
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Starts</th>
+            <th>Duration</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {{#each}}
+          <tr>
+            <td><h4>{{#link-to 'contests.contest' this}} {{name}} {{/link-to}}</h4> </td>
+            <td>{{starts}}</td>
+            <td>{{duration}}</td>
+            <td>
+              <a href="" role="button" class="btn btn-success">Register</a><br /><br />
+              <a>{{already_registered}}</a> Registered
+            </td>
+          </tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </div> <!-- /widget-content -->
+
+  </div> <!-- /widget -->
+
+
+  <div class="widget stacked widget-table action-table past-contests">
+
+    <div class="widget-header">
+      <i class="fa fa-th-list"></i>
+      <h3>Past Contests</h3>
+    </div> <!-- /widget-header -->
+
+    <div class="widget-content">
+
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Started</th>
+            <th>Duration</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td><h4>Goodbye 2013</h4></td>
+          <td>31st December 2013 <br />04:00pm UTC-1</td>
+          <td>75 minutes</td>
+          <td><a href="" role="button" class="btn btn-info">Rankings</a><br /></td>
+        </tr>
+
+        <tr>
+          <td><h4>Welcome 2014</h4></td>
+          <td>7th January 2014 <br />04:00pm UTC-1</td>
+          <td>75 minutes</td>
+          <td><a href="" role="button" class="btn btn-info">Rankings</a><br /></td>
+        </tr>
+
+        <tr>
+          <td><h4>Contest #101</h4></td>
+          <td>14th January 2014 <br />03:00pm UTC-1</td>
+          <td>75 minutes</td>
+          <td><a href="" role="button" class="btn btn-info">Rankings</a><br /></td>
+        </tr>
+        </tbody>
+        <!-- <tfoot> This is the footer... I hope it freaking works </tfoot> -->
+      </table>
+    </div> <!-- /widget-content -->
+
+  </div> <!-- /widget -->
+</div>
+
+<div class="col-md-4">
+  {{view 'top_hackers'}}
+</div>
