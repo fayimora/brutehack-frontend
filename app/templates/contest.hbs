@@ -3,7 +3,7 @@
 
     <div class="widget-header">
       <i class="fa fa-th-list"></i>
-      <h3>Questions</h3>
+      <h3>Questions for {{name}}</h3>
     </div> <!-- /widget-header -->
 
     <div class="widget-content">
@@ -19,15 +19,20 @@
         </thead>
         <tbody>
 
+        {{#each questions}}
         <tr>
           <td>A</td>
-          <td><h4>Wene on xmas</h4> </td>
+          <td><h4>{{#link-to 'question' this}}{{title}}{{/link-to}}</h4> </td>
           <td></td>
           <td></td>
         </tr>
+        {{/each}}
         </tbody>
       </table>
     </div> <!-- /widget-content -->
 
   </div> <!-- /widget -->
+
+
+  {{outlet}}
 </div>

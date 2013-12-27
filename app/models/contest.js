@@ -4,7 +4,9 @@ var Contest = DS.Model.extend({
   name: attr(),
   starts: attr(),
   duration: attr(),
-  already_registered: attr('number')
+  alreadyRegistered: attr('number'),
+
+  questions: DS.hasMany('question', {async: true})
 });
 
 export default Contest;

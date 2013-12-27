@@ -1,3 +1,5 @@
-export default DS.RESTAdapter.extend({
+var ApplicationAdapter = DS.RESTAdapter.extend({
   namespace: "api"
 });
+
+export default ApplicationAdapter;

@@ -6,7 +6,9 @@ Router.map(function() {
   this.route("login");
 
   this.resource('contests', function () {
-    this.route('contest', {path: ':contest_id'});
+    this.resource('contest', {path: ':contest_id'}, function () {
+      this.resource('question', {path: 'questions/:question_id'});
+    });
   });
 });
 
