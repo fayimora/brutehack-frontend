@@ -1,5 +1,5 @@
 var ApplicationAdapter = DS.RESTAdapter.extend({
-  namespace: "api"
+  namespace: window.ENV.api_namespace
 });
 
 export default ApplicationAdapter;
