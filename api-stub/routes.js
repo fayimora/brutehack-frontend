@@ -57,7 +57,6 @@ module.exports = function(server) {
       res.send({"questions": result});
     });
 
-    // server.get('contests/:contest_id/questions/:question_id', function (req, res) {});
   });
 
 };
