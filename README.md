@@ -12,7 +12,7 @@ programming competitions. This repository contains just the clientside applicati
 - Clone this repository
 - run `npm install -g bower`
 - run `npm install`
-- run `grunt server` or `grunt server:dist` to run a built version of the project
+- run `grunt server` or `grunt server:dist` to run a built version of the application.
 
 ## Contributing
 
