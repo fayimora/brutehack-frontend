@@ -5,6 +5,8 @@
 BruteHack is an open source application that is built mostly for colleges/universities to host
 programming competitions. This repository contains just the clientside application(Ember.js application).
 
+**NOTE: I am currently working on my final year project so the development of this project will be slower than I'll like it to be. Nonetheless, Please do send me PRs or issues if you find a boo boo :smile:**
+
 ## How to run
 
 - Install [node.js](http://nodejs.org)
