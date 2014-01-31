@@ -11,7 +11,7 @@ Router.map(function() {
     });
   });
 
-  this.route('fourOhFour', {path: '*path'});
+  this.route('four_oh_four', {path: '/*path'});
 });
 
 export default Router;
