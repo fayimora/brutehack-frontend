@@ -10,6 +10,8 @@ Router.map(function() {
       this.resource('question', {path: 'questions/:question_id'});
     });
   });
+
+  this.route('fourOhFour', {path: '*path'});
 });
 
 export default Router;
