@@ -4,6 +4,7 @@ Router.map(function() {
   this.route("faqs");
   this.route("rankings");
   this.route("login");
+  this.route('user');
 
   this.resource('contests', function () {
     this.resource('contest', {path: ':contest_id'}, function () {

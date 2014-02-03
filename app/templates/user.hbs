@@ -1,0 +1,197 @@
+<div class="row">
+
+  <div class="col-md-8">
+
+    <div class="widget stacked ">
+
+      <div class="widget-header">
+        <i class="icon-user"></i>
+        <h3>Your Account Settings</h3>
+      </div> <!-- /widget-header -->
+
+      <div class="widget-content">
+
+        <div class="tabbable">
+          <ul class="nav nav-tabs">
+            <li class="active"> <a href="" data-toggle="tab">Profile</a> </li>
+            <!-- <li><a href="" data&#45;toggle="tab">Settings</a></li> -->
+          </ul>
+
+          <br>
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="profile">
+              <form id="edit-profile" class="form-horizontal col-md-8">
+                <fieldset>
+
+                  <div class="form-group">
+                    <label for="username" class="col-md-4">Username</label>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" id="username" value="fayimora" disabled>
+                      <p class="help-block">Your username is for logging in and cannot be changed.</p>
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+                  <div class="form-group">
+                    <label for="firstname" class="col-md-4">First Name</label>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" id="firstname" value="Fayimora">
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+                  <div class="form-group">
+                    <label class="col-md-4" for="lastname">Last Name</label>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" id="lastname" value="Femi-Balogun">
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+                  <div class="form-group">
+                    <label class="col-md-4" for="email">Email Address</label>
+                    <div class="col-md-8">
+                      <input type="text" class="form-control" id="email" value="fayi@fayimora.com">
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+                  <hr /><br />
+
+                  <div class="form-group">
+                    <label class="col-md-4" for="password1">Password</label>
+                    <div class="col-md-8">
+                      <input type="password" class="form-control" id="password1">
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+                  <div class="form-group">
+                    <label class="col-md-4" for="password2">Confirm</label>
+                    <div class="col-md-8">
+                      <input type="password" class="form-control" id="password2">
+                    </div> <!-- /controls -->
+                  </div> <!-- /control-group -->
+
+
+
+                  <br />
+
+
+                  <div class="form-group">
+
+                    <div class="col-md-offset-4 col-md-8">
+                      <button type="submit" class="btn btn-primary">Save</button>
+                      <button class="btn btn-default">Cancel</button>
+                    </div>
+                  </div> <!-- /form-actions -->
+                </fieldset>
+              </form>
+            </div>
+
+            <!-- <div class="tab&#45;pane" id="settings"> -->
+            <!--   <form id="edit&#45;profile2" class="form&#45;horizontal col&#45;md&#45;8"> -->
+            <!--     <fieldset> -->
+            <!--  -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <label class="col&#45;md&#45;4" for="accounttype">Account Type</label> -->
+            <!--         <div class="col&#45;md&#45;8"> -->
+            <!--           <div class="radio"> -->
+            <!--             <label> -->
+            <!--               <input type="radio" name="accounttype" value="option1" checked="checked" id="accounttype"> -->
+            <!--               POP3 -->
+            <!--             </label> -->
+            <!--           </div> -->
+            <!--  -->
+            <!--           <div class="radio"> -->
+            <!--             <label> -->
+            <!--               <input type="radio" name="accounttype" value="option2"> -->
+            <!--               IMAP -->
+            <!--             </label> -->
+            <!--           </div> -->
+            <!--  -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <label class="col&#45;md&#45;4" for="accountusername">Account Username</label> -->
+            <!--         <div class="col&#45;md&#45;8"> -->
+            <!--           <input type="text" class="form&#45;control" id="accountusername" value="rod.howard@example.com"> -->
+            <!--           <p class="help&#45;block">Leave blank to use your profile email address.</p> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <label class="col&#45;md&#45;4" for="emailserver">Email Server</label> -->
+            <!--         <div class="col&#45;md&#45;8"> -->
+            <!--           <input type="text" class="form&#45;control" id="emailserver" value="mail.example.com"> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <label class="col&#45;md&#45;4" for="accountpassword">Password</label> -->
+            <!--         <div class="col&#45;md&#45;8"> -->
+            <!--           <input type="text" class="form&#45;control" id="accountpassword" value="password"> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <label class="col&#45;md&#45;4" for="accountadvanced">Advanced Settings</label> -->
+            <!--  -->
+            <!--         <div class="col&#45;md&#45;8"> -->
+            <!--           <div class="checkbox"> -->
+            <!--             <label> -->
+            <!--               <input type="checkbox" name="accountadvanced" value="option1" checked="checked" id="accountadvanced"> -->
+            <!--               User encrypted connection when accessing this server -->
+            <!--             </label> -->
+            <!--           </div> -->
+            <!--  -->
+            <!--           <div class="checkbox"> -->
+            <!--             <label> -->
+            <!--               <input type="checkbox" name="accounttype" value="option2"> -->
+            <!--               Download all message on connection -->
+            <!--             </label> -->
+            <!--           </div> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--  -->
+            <!--  -->
+            <!--       <div class="form&#45;group"> -->
+            <!--         <div class="col&#45;md&#45;offset&#45;4 col&#45;md&#45;8"> -->
+            <!--           <button type="submit" class="btn btn&#45;primary">Save</button> <button class="btn btn&#45;default">Cancel</button> -->
+            <!--         </div> -->
+            <!--       </div> -->
+            <!--     </fieldset> -->
+            <!--   </form> -->
+            <!-- </div> -->
+
+          </div>
+
+
+        </div>
+
+      </div> <!-- /widget-content -->
+
+    </div> <!-- /widget -->
+
+  </div> <!-- /span8 -->
+
+
+  <div class="col-md-4">
+
+    <div class="well">
+
+      <h3>Extra Info</h3>
+
+      <p>Some extra info about the hacker can be here.. A simple bio and picture might suffice
+      here</p>
+    </div>
+
+  </div> <!-- /span4 -->
+
+</div> <!-- /row -->
