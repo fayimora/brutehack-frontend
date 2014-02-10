@@ -74,10 +74,7 @@
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
-
-
                   <br />
-
 
                   <div class="form-group">
 
@@ -93,77 +90,39 @@
             <div class="tab-pane" id="settings">
               <form id="edit-profile2" class="form-horizontal col-md-8">
                 <fieldset>
-
-
                   <div class="form-group">
-                    <label class="col-md-4" for="accounttype">Account Type</label>
+                    <label class="col-md-4" for="shirtsize">Shirt Size</label>
                     <div class="col-md-8">
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="accounttype" value="option1" checked="checked" id="accounttype">
-                          POP3
-                        </label>
-                      </div>
-
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="accounttype" value="option2">
-                          IMAP
-                        </label>
-                      </div>
-
+                      <select name="shirtsize" id="shirtsize" class="form-control">
+                        <option value="">Select</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                      </select>
                     </div>
                   </div>
 
                   <div class="form-group">
-                    <label class="col-md-4" for="accountusername">Account Username</label>
-                    <div class="col-md-8">
-                      <input type="text" class="form-control" id="accountusername" value="rod.howard@example.com">
-                      <p class="help-block">Leave blank to use your profile email address.</p>
+                    <div class="checkbox">
+                      <label class="col-md-8" for="notifyForContest">Get notifications for new contests?
+                        <input type="checkbox" name="notifyForContest" id="notifyForContest" value="1" />
+                      </label>
+                    </div>
+
+                    <div class="checkbox">
+                      <label class="col-md-8" for="hideContactInfo">Hide contact information?
+                        <input type="checkbox" name="hideContactInfo" id="hideContactInfo" value="1" />
+                      </label>
                     </div>
                   </div>
-
-                  <div class="form-group">
-                    <label class="col-md-4" for="emailserver">Email Server</label>
-                    <div class="col-md-8">
-                      <input type="text" class="form-control" id="emailserver" value="mail.example.com">
-                    </div>
-                  </div>
-
-                  <div class="form-group">
-                    <label class="col-md-4" for="accountpassword">Password</label>
-                    <div class="col-md-8">
-                      <input type="text" class="form-control" id="accountpassword" value="password">
-                    </div>
-                  </div>
-
-
-
-
-                  <div class="form-group">
-                    <label class="col-md-4" for="accountadvanced">Advanced Settings</label>
-
-                    <div class="col-md-8">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox" name="accountadvanced" value="option1" checked="checked" id="accountadvanced">
-                          User encrypted connection when accessing this server
-                        </label>
-                      </div>
-
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox" name="accounttype" value="option2">
-                          Download all message on connection
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-
 
                   <div class="form-group">
                     <div class="col-md-offset-4 col-md-8">
-                      <button type="submit" class="btn btn-primary">Save</button> <button class="btn btn-default">Cancel</button>
+                      <button type="submit" class="btn btn-primary">Save</button>
+                      <button class="btn btn-default">Cancel</button>
                     </div>
                   </div>
                 </fieldset>
