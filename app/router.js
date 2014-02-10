@@ -15,4 +15,8 @@ Router.map(function() {
   this.route('four-oh-four', {path: '/*path'});
 });
 
+Router.reopen({
+  location: 'history'
+});
+
 export default Router;
