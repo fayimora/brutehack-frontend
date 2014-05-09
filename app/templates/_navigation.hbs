@@ -13,38 +13,34 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-
-      {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
-        <i class="fa fa-cog"></i>
-        Settings
-        <b class="caret"></b>
-      {{/link-to}}
-
-        <ul class="dropdown-menu">
-          <li>{{link-to 'Account Settings'}}</li>
-          <li>{{link-to 'Privacy Settings'}}</li>
-          <li class="divider"></li>
-          <li>{{link-to 'Help'}}</li>
-        </ul>
-
-        </li>
+        <!-- <li class="dropdown"> -->
+        <!--   {{!#link&#45;to '' class="dropdown&#45;toggle" data&#45;toggle="dropdown"}} -->
+        <!--     <i class="fa fa&#45;cog"></i> -->
+        <!--     Settings -->
+        <!--     <b class="caret"></b> -->
+        <!--   {{!/link&#45;to}} -->
+        <!--  -->
+        <!--   <ul class="dropdown&#45;menu"> -->
+        <!--     <li>{{!link&#45;to 'Account Settings'}}</li> -->
+        <!--     <li>{{!link&#45;to 'Privacy Settings'}}</li> -->
+        <!--     <li class="divider"></li> -->
+        <!--     <li>{{! link&#45;to 'Help'}}</li> -->
+        <!--   </ul> -->
+        <!-- </li> -->
 
         <li class="dropdown">
+          {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
+            <i class="fa fa-user"></i>
+            Fayimora Femi-Balogun
+            <b class="caret"></b>
+          {{/link-to}}
 
-        {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
-          <i class="fa fa-user"></i>
-          Fayimora Femi-Balogun
-          <b class="caret"></b>
-        {{/link-to}}
-
-        <ul class="dropdown-menu">
-          <li>{{link-to 'My Profile' 'user'}}</li>
-          <li>{{link-to 'My Groups'}}</li>
-          <li class="divider"></li>
-          <li>{{link-to 'Logout' 'login'}}</li>
-        </ul>
-
+          <ul class="dropdown-menu">
+            <li>{{link-to 'My Profile' 'user'}}</li>
+            <li>{{link-to 'My Groups'}}</li>
+            <li class="divider"></li>
+            <li>{{link-to 'Logout' 'login'}}</li>
+          </ul>
         </li>
       </ul>
 
