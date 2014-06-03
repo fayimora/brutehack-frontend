@@ -1,4 +1,4 @@
-import Resolver from 'resolver';
+import Resolver from 'ember/resolver';
 
 var BruteHack = Ember.Application.extend({
   LOG_ACTIVE_GENERATION: true,
