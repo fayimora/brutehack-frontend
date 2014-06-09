@@ -4,6 +4,7 @@ APPDIR="/Users/fayimora/Code/brutehack-frontend"
 PATCHDIR="/tmp/eakpatch"
 EAKDIR="/tmp/ember-app-kit-master"
 
+git clone stefanpenner/ember-app-kit /tmp/ember-app-kit-master
 cd ${EAKDIR}
 git pull origin master
 cd ${APPDIR}
@@ -21,13 +22,13 @@ do
   patch ${APPDIR}/${i} ${PATCHDIR}/${i}
 done
 
-echo "updating tasks directory"
+echo "Updating tasks directory"
 rm -rf ${APPDIR}/tasks/*
 cp -r ${EAKDIR}/tasks/* ${APPDIR}/tasks/
 
 cd ${APPDIR}
-echo "running npm update"
+echo "Running npm update"
 npm update
 
-echo "running bower update"
+echo "Running bower update"
 bower update
