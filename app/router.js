@@ -16,7 +16,7 @@ Router.map(function() {
 });
 
 Router.reopen({
-  location: 'history'
+  location: 'auto'
 });
 
 export default Router;
