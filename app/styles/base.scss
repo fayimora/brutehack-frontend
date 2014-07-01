@@ -6,7 +6,7 @@
 */
 
 body {
-  background: #e9e9e9 url(img/tiny_grid.png) repeat 0 0;
+  background: #e9e9e9 url(images/tiny_grid.png) repeat 0 0;
   font: 13px / 1.7em "Open Sans";
 }
 
@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 2;
     width: 25px;
     height: 16px;
-    background: url(img/jquery/handle.png) no-repeat;
+    background: url(images/jquery/handle.png) no-repeat;
     border: none;
     cursor: pointer;
     &:hover, &:active {
@@ -587,7 +587,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: -0.6em;
     width: 15px;
     height: 24px;
-    background: url(img/jquery/handle-vertical.png) no-repeat;
+    background: url(images/jquery/handle-vertical.png) no-repeat;
     &:hover, &:active {
       background-position: 0 -24px;
     }
@@ -656,7 +656,7 @@ h1, h2, h3, h4, h5, h6 {
       left: 0;
       width: 15px;
       height: 15px;
-      background: url(img/validation/validation-success.png) no-repeat 0 0;
+      background: url(images/validation/validation-success.png) no-repeat 0 0;
     }
   }
 }
@@ -894,23 +894,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jquery-msgbox-alert {
-  background: url(img/notifications/alert-48.png) no-repeat 21px 20px;
+  background: url(images/notifications/alert-48.png) no-repeat 21px 20px;
 }
 
 .jquery-msgbox-info {
-  background: url(img/notifications/info-48.png) no-repeat 21px 20px;
+  background: url(images/notifications/info-48.png) no-repeat 21px 20px;
 }
 
 .jquery-msgbox-error {
-  background: url(img/notifications/error-48.png) no-repeat 21px 20px;
+  background: url(images/notifications/error-48.png) no-repeat 21px 20px;
 }
 
 .jquery-msgbox-prompt {
-  background: url(img/notifications/question-dark-48.png) no-repeat 20px 20px;
+  background: url(images/notifications/question-dark-48.png) no-repeat 20px 20px;
 }
 
 .jquery-msgbox-confirm {
-  background: url(img/notifications/question-48.png) no-repeat 20px 20px;
+  background: url(images/notifications/question-48.png) no-repeat 20px 20px;
 }
 
 /*------------------------------------------------------------------
@@ -919,16 +919,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .msgGrowl {
   &.success .msgGrowl-content {
-    background: url(img/notifications/success-32.png) no-repeat 7px 13px;
+    background: url(images/notifications/success-32.png) no-repeat 7px 13px;
   }
   &.error .msgGrowl-content {
-    background: url(img/notifications/error-32.png) no-repeat 7px 13px;
+    background: url(images/notifications/error-32.png) no-repeat 7px 13px;
   }
   &.info .msgGrowl-content {
-    background: url(img/notifications/info-32.png) no-repeat 7px 13px;
+    background: url(images/notifications/info-32.png) no-repeat 7px 13px;
   }
   &.warning .msgGrowl-content {
-    background: url(img/notifications/alert-32.png) no-repeat 7px 13px;
+    background: url(images/notifications/alert-32.png) no-repeat 7px 13px;
   }
 }
 
@@ -1424,7 +1424,7 @@ ul.pagination li {
   width: 184px;
   height: 120px;
   background-color: rgba(0, 0, 0, 0.65);
-  background-image: url(img/gallery/zoom.png);
+  background-image: url(images/gallery/zoom.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
   border-top-right-radius: 3px;
