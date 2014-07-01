@@ -5,4 +5,4 @@
 //
 // window.ENV.public_key = '123456'
 window.ENV.api_namespace = 'api';
-window.ENV.api_host = 'http://localhost:8000';
+window.ENV.api_host = 'http://localhost:9000';
