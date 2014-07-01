@@ -20,12 +20,6 @@ var app = new EmberApp();
 app.import('vendor/bootstrap-sass-official/assets/stylesheets/bootstrap.scss')
 app.import('vendor/bootstrap-sass-official/assets/javascripts/bootstrap.js')
 
-app.import('vendor/fontawesome/scss/font-awesome.scss')
-app.import('vendor/fontawesome/fonts/FontAwesome.otf')
-app.import('vendor/fontawesome/fonts/fontawesome-webfont.eot')
-app.import('vendor/fontawesome/fonts/fontawesome-webfont.svg')
-app.import('vendor/fontawesome/fonts/fontawesome-webfont.ttf')
-app.import('vendor/fontawesome/fonts/fontawesome-webfont.woff')
 
 app.import('vendor/moment/moment.js')
 
