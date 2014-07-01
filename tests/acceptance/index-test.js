@@ -1,3 +1,6 @@
+import { test } from 'ember-qunit';
+import startApp from '../helpers/start-app';
+
 var App;
 
 module('Acceptances - Index page', {

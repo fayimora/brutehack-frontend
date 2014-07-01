@@ -1,6 +1,8 @@
+import DS from "ember-data";
+
 var ApplicationAdapter = DS.RESTAdapter.extend({
-  host: window.ENV.api_host,
-  namespace: window.ENV.api_namespace
+  namespace: BruteHackENV.api_namespace,
+  host: BruteHackENV.api_host
 });
 
 export default ApplicationAdapter;

@@ -1,3 +1,11 @@
+@import 'vendor/bootstrap-sass-official/assets/stylesheets/bootstrap.scss';
+@import 'vendor/fontawesome/scss/font-awesome.scss';
+@import 'base';
+@import 'base-responsive';
+@import 'dashboard';
+@import 'login';
+@import 'google-font';
+
 .rated-user, .rated-user:link, .rated-user:visited, .rated-user:hover, .rated-user:active {
   text-decoration: none !important;
   font-weight: bold;

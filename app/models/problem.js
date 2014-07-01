@@ -1,3 +1,5 @@
+import DS from "ember-data";
+
 var attr = DS.attr;
 
 var Problem = DS.Model.extend({

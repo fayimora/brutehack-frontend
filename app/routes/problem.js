@@ -1,3 +1,5 @@
+import Ember from "ember";
+
 var ProblemRoute = Ember.Route.extend({
   model: function (params) {
     return this.modelFor('contest').get('problems').then(function(problems){
