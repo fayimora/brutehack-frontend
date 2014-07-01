@@ -8,7 +8,7 @@ Router.map(function() {
 
   this.resource('contests', function () {
     this.resource('contest', {path: ':contest_id'}, function () {
-      this.resource('question', {path: 'questions/:question_id'});
+      this.resource('problem', {path: 'problems/:problem_id'});
     });
   });
 

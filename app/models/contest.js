@@ -1,12 +1,13 @@
 var attr = DS.attr;
 
 var Contest = DS.Model.extend({
-  name: attr(),
-  starts: attr(),
+  title: attr(),
+  description: attr(),
+  startTime: attr(),
   duration: attr(),
   alreadyRegistered: attr('number'),
 
-  questions: DS.hasMany('question', {async: true})
+  problems: DS.hasMany('problem', {async: true})
 });
 
 export default Contest;

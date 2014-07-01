@@ -1,9 +1,9 @@
 <div class="col-md-12">
-  <div class="widget stacked widget-table action-table questions-table">
+  <div class="widget stacked widget-table action-table problems-table">
 
     <div class="widget-header">
       <i class="fa fa-th-list"></i>
-      <h3>Questions for {{name}}</h3>
+      <h3>Problems for {{title}}</h3>
     </div> <!-- /widget-header -->
 
     <div class="widget-content">
@@ -19,10 +19,10 @@
         </thead>
         <tbody>
 
-        {{#each questions}}
+        {{#each problems}}
         <tr>
           <td>A</td>
-          <td><h4>{{#link-to 'question' this}}{{title}}{{/link-to}}</h4> </td>
+          <td><h4>{{#link-to 'problem' this}}{{title}}{{/link-to}}</h4> </td>
           <td></td>
           <td></td>
         </tr>
