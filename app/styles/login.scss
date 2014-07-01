@@ -47,11 +47,11 @@ body {
 }
 
 .username-field {
-  background: url(images/login/user.png) no-repeat;
+  background: url(/assets/images/login/user.png) no-repeat;
 }
 
 .password-field {
-  background: url(images/login/password.png) no-repeat;
+  background: url(/assets/images/login/password.png) no-repeat;
 }
 
 .login-actions {
@@ -76,7 +76,7 @@ span.login-checkbox {
       margin: 0;
       font-size: 12px;
       line-height: 1.2em;
-      background: url(images/login/check.png) no-repeat 0 0;
+      background: url(/assets/images/login/check.png) no-repeat 0 0;
       cursor: pointer;
     }
     &:checked + label {
