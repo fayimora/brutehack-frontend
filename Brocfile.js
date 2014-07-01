@@ -27,4 +27,6 @@ app.import('vendor/fontawesome/fonts/fontawesome-webfont.svg')
 app.import('vendor/fontawesome/fonts/fontawesome-webfont.ttf')
 app.import('vendor/fontawesome/fonts/fontawesome-webfont.woff')
 
+app.import('vendor/moment/moment.js')
+
 module.exports = app.toTree();
