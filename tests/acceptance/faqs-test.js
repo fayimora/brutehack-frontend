@@ -14,7 +14,7 @@ module('Acceptances - FAQs page', {
 
 test('renders the necessary content', function(){
   visit('/faqs').then(function(){
-    var faqsHeader = find('div.widget-header > h3');
+    var faqsHeader = find('.widget-header > h3');
     var askButton = find('a.btn.btn-support-ask');
     var contactButton = find('a.btn.btn-support-contact');
 

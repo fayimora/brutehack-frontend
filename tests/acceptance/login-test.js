@@ -14,7 +14,7 @@ module('Acceptances - Login page', {
 
 test('login page renders properly', function () {
   visit('/login').then(function () {
-    var container = find('div.account-container > div.content');
+    var container = find('.account-container > .content');
     var form = container.find('form');
 
     equal(form.find('h1').text(), 'Sign In', 'Form header exists');

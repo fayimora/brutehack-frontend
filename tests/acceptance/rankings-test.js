@@ -14,9 +14,9 @@ module('Acceptances - Rankings page', {
 
 test('renders table', function () {
   visit('/rankings').then(function() {
-    var widget = find('div.rankings');
-    var widgetContent  = find('div.widget-content');
-    var tableName = widget.find('div.widget-header h3').text();
+    var widget = find('.rankings');
+    var widgetContent  = find('.widget-content');
+    var tableName = widget.find('.widget-header h3').text();
     var table = widgetContent.find("table");
 
     equal(tableName, 'Overall Rankings', 'contains table for overall rankings');
