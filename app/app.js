@@ -9,6 +9,10 @@ var App = Ember.Application.extend({
   Resolver: Resolver
 });
 
+Ember.LinkView.reopen({
+  attributeBindings: ['data-toggle']
+});
+
 loadInitializers(App, 'brute-hack');
 
 export default App;
