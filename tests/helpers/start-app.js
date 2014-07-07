@@ -2,6 +2,7 @@
 
 var Application = require('brute-hack/app')['default'];
 var Router = require('brute-hack/router')['default'];
+import Ember from 'ember';
 
 export default function startApp(attrs) {
   var App;
