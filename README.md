@@ -26,4 +26,19 @@ programming competitions. This repository contains just the clientside applicati
 
 * `ember build`
 
+## Contributing
+
+I very much welcome contributions. All you have to do is:
+
+1. Fork this repository
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
+## License
+
+Copyright 2013 by Fayimora Femi-Balogun and licensed under the MIT License. See included
+[LICENSE](https://github.com/fayimora/brutehack-frontend/blob/master/LICENSE) file for details.
+
 For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
