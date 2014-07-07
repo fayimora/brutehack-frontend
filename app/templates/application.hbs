@@ -1,6 +1,8 @@
 {{partial "navigation"}}
 
-{{partial "subnavigation"}}
+{{#unless inLogin}}
+  {{partial "subnavigation"}}
+{{/unless}}
 
 <div class="main">
   <div class="container">
