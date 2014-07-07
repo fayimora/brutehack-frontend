@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  inLoginOrLogout: function () {
+  inLoginOrSignup: function () {
     var currentRoute = this.get('currentRouteName');
     return  currentRoute === 'login' || currentRoute === 'signup';
   }.property('currentRouteName')
