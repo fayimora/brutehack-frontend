@@ -8,6 +8,7 @@ Router.map(function() {
   this.route("faqs");
   this.route("rankings");
   this.route("login");
+  this.route("signup");
   this.route('user');
 
   this.resource('contests', function () {

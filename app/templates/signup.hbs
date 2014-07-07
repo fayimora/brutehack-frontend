@@ -1,0 +1,62 @@
+<div class="account-container register stacked">
+
+  <div class="content clearfix">
+
+    <form action="" method="post">
+
+      <h1>Create Your Account</h1>
+
+      <div class="login-fields">
+
+        <div class="field">
+          <label for="firstname">First Name:</label>
+          {{input id="firstname" name="firstname" placeholder="First Name" class="form-control"}}
+        </div> <!-- /field -->
+
+        <div class="field">
+          <label for="lastname">Last Name:</label>
+          {{input id="lastname" name="lastname" placeholder="Last Name" class="form-control"}}
+        </div> <!-- /field -->
+
+
+        <div class="field">
+          <label for="email">Email Address:</label>
+          {{input id="email" name="email" placeholder="Email" class="form-control"}}
+        </div> <!-- /field -->
+
+        <div class="field">
+          <label for="password">Password:</label>
+          {{input id="password" name="password" placeholder="Password" class="form-control"}}
+        </div> <!-- /field -->
+
+        <div class="field">
+          <label for="confirm_password">Confirm Password:</label>
+          {{input id="confirm_password" name="confirm_password" placeholder="Confirm Password" class="form-control"}}
+        </div> <!-- /field -->
+
+      </div> <!-- /login-fields -->
+
+      <div class="login-actions">
+
+        <span class="login-checkbox">
+          <input id="Field" name="Field" type="checkbox" class="field login-checkbox" value="First Choice" tabindex="4" />
+          <label class="choice" for="Field">I have read and agree with the Terms of Use.</label>
+        </span>
+
+        <button class="login-action btn btn-primary">Register</button>
+
+      </div> <!-- .actions -->
+
+    </form>
+
+  </div> <!-- /content -->
+
+</div> <!-- /account-container -->
+
+
+<!-- Text Under Box -->
+<div class="login-extra">
+  Already have an account? {{link-to "Login" 'login'}}
+</div> <!-- /login-extra -->
+
+
