@@ -3,9 +3,9 @@ import DS from "ember-data";
 var attr = DS.attr;
 
 var Contest = DS.Model.extend({
-  title             : attr(),
-  description       : attr(),
-  startTime         : attr(),
+  title             : attr('string'),
+  description       : attr('string'),
+  startTime         : attr('number'),
   duration          : attr(),
   alreadyRegistered : attr('number'),
 
