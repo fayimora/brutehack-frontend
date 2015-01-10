@@ -1,8 +1,9 @@
 import DS from "ember-data";
+import config from '../config/environment';
 
 var ApplicationAdapter = DS.RESTAdapter.extend({
-  namespace: BruteHackENV.api_namespace,
-  host: BruteHackENV.api_host
+  namespace: config.api_namespace,
+  host: config.api_host
 });
 
 export default ApplicationAdapter;
