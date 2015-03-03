@@ -14,15 +14,17 @@
             <th></th>
             <th>Title</th>
             <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
 
-        {{#each problem in model.problems}}
+        {{#each problems}}
         <tr>
-          <td>Aiii</td>
-          <td><h4>{{#link-to 'problem' this}}{{problem.title}}{{/link-to}}</h4> </td>
-          <td>{{problem.title}}</td>
+          <td>A</td>
+          <td><h4>{{#link-to 'problem' this}}{{title}}{{/link-to}}</h4> </td>
+          <td></td>
+          <td></td>
         </tr>
         {{/each}}
         </tbody>
