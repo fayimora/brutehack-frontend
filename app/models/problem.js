@@ -8,6 +8,7 @@ var Problem = DS.Model.extend({
   author      : attr('string'),
   title       : attr('string'),
   description : attr('string'),
+  hint        : attr('string'),
   inputs      : attr(),
   outputs     : attr(),
 
