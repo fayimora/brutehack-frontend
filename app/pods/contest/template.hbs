@@ -1,0 +1,36 @@
+<div class="col-md-12">
+  <div class="widget stacked widget-table action-table problems-table">
+
+    <div class="widget-header">
+      <i class="fa fa-th-list"></i>
+      <h3>Problems for {{title}}</h3>
+    </div> <!-- /widget-header -->
+
+    <div class="widget-content">
+
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Title</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+        {{#each problem in model.problems}}
+        <tr>
+          <td>Aiii</td>
+          <td><h4>{{#link-to 'problem' this}}{{problem.title}}{{/link-to}}</h4> </td>
+          <td>{{problem.title}}</td>
+        </tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </div> <!-- /widget-content -->
+
+  </div> <!-- /widget -->
+
+
+  {{outlet}}
+</div>
