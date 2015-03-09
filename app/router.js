@@ -12,11 +12,15 @@ Router.map(function() {
   this.route("signup");
   this.route('user');
 
-  this.resource('contests', function () {
-    this.resource('contest', {path: ':contest_id'}, function () {
-      this.resource('problem', {path: 'problems/:problem_id'});
-    });
+  this.resource('contests');
+  this.resource('contest', {path: 'contest/:contest_id'}, function () {
+    this.resource('problem', {path: 'problems/:problem_id'});
   });
+  // this.resource('contests', function () {
+  //   this.resource('contest', {path: ':contest_id'}, function () {
+  //     this.resource('problem', {path: 'problems/:problem_id'});
+  //   });
+  // });
 
   this.route('four-oh-four', {path: '/*path'});
 });
