@@ -15,12 +15,8 @@ Router.map(function() {
   this.resource('contests');
   this.resource('contest', {path: 'contest/:contest_id'}, function () {
     this.resource('problem', {path: 'problem/:problem_id'});
+    this.route('submission');
   });
-  // this.resource('contests', function () {
-  //   this.resource('contest', {path: ':contest_id'}, function () {
-  //     this.resource('problem', {path: 'problems/:problem_id'});
-  //   });
-  // });
 
   this.route('four-oh-four', {path: '/*path'});
 });

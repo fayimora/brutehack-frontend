@@ -1,8 +1,7 @@
 <div class="bs-example">
   <ul class="nav nav-pills">
-    <!-- <li class="active"><a href="#tab&#45;1" data&#45;toggle="tab">Problems</a></li> -->
-    <li class="active">{{#link-to 'contest' this data-toggle="tab"}}Problems{{/link-to}}</li>
-    <li class=""><a href="#tab-2" data-toggle="tab">Tab #2</a></li>
+    {{#link-to 'contest' this tagName='li' href=false}} {{link-to 'Problems' 'contest' this}} {{/link-to}}
+    {{#link-to 'contest.submission' tagName='li' href=false}} {{link-to 'Submission' 'contest.submission'}} {{/link-to}}
   </ul>
 
   <div class="tab-content">
@@ -10,12 +9,6 @@
       {{outlet}}
     </div>
 
-    <div class="tab-pane fade" id="tab-2">
-      <strong>Tab #2</strong>
-      <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.
-        Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan
-        tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-    </div>
   </div>
 </div> <!-- /bs-example -->
 
