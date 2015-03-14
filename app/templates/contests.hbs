@@ -19,11 +19,11 @@
         </thead>
         <tbody>
 
-        {{#each}}
+        {{#each c in model}}
           <tr>
-            <td><h4>{{#link-to 'contest' this}} {{title}} {{/link-to}}</h4> </td>
-            <td>{{format-date startTime}} UTC</td>
-            <td>{{duration}}</td>
+            <td><h4>{{#link-to 'contest' c}} {{c.title}} {{/link-to}}</h4> </td>
+            <td>{{format-date c.startTime}} UTC</td>
+            <td>{{c.duration}}</td>
             <td>
               <a href="" role="button" class="btn btn-success">Register</a><br /><br />
               <a>100</a> Registered

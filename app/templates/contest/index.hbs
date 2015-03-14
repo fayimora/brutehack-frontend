@@ -10,10 +10,10 @@
       </thead>
       <tbody>
 
-      {{#each problems}}
+        {{#each p in problems}}
       <tr>
         <td>A</td>
-        <td><h4>{{#link-to 'problem' this}}{{title}}{{/link-to}}</h4> </td>
+        <td><h4>{{#link-to 'problem' p}}{{p.title}}{{/link-to}}</h4> </td>
       </tr>
       {{/each}}
       </tbody>
