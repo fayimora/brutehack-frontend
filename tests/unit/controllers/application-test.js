@@ -1,4 +1,4 @@
-import { test, moduleFor } from 'ember-qunit';
+import { ok, test, moduleFor } from 'ember-qunit';
 
 moduleFor('controller:application', 'ApplicationController', {
   // Specify the other units that are required for this test.

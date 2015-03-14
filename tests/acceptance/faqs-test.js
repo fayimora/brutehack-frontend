@@ -1,5 +1,5 @@
-import { test } from 'ember-qunit';
-import startApp from '../helpers/start-app';
+import { test, module, equal } from 'ember-qunit';
+import startApp from 'brute-hack/tests/helpers/start-app';
 import Ember from 'ember';
 
 var App;

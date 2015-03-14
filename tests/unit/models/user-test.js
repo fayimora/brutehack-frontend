@@ -1,4 +1,4 @@
-import { test, moduleForModel } from 'ember-qunit';
+import { ok, test, moduleForModel } from 'ember-qunit';
 
 moduleForModel('user', 'User', {
   // Specify the other units that are required for this test.
