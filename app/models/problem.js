@@ -12,7 +12,7 @@ var Problem = DS.Model.extend({
   inputs      : attr(),
   outputs     : attr(),
 
-  contest     : DS.belongsTo('contest', {async: true})
+  contest     : DS.belongsTo('contest')
 });
 
 export default Problem;
