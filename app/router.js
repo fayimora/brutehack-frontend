@@ -10,7 +10,7 @@ Router.map(function() {
   this.route("rankings");
   this.route("login");
   this.route("signup");
-  this.route('user');
+  this.route('user', {path: 'user/:user_handle'});
 
   this.resource('contests');
   this.resource('contest', {path: 'contest/:contest_id'}, function () {
