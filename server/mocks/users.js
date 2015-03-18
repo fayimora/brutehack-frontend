@@ -1,6 +1,6 @@
 module.exports = function(app) {
   var express = require('express');
-  var userRouter = express.Router();
+  var usersRouter = express.Router();
   var users = [
     {"lastVisit"  : 1400260914177,
       "handle"    : "fayimora",
@@ -28,17 +28,30 @@ module.exports = function(app) {
     }
   ];
 
-  userRouter.get('/', function(req, res) {
+  usersRouter.get('/', function(req, res) {
     res.send({
-      'user': []
+      'users': users
     });
   });
 
-  userRouter.post('/', function(req, res) {
+  usersRouter.post('/', function(req, res) {
     res.status(201).end();
   });
 
-  userRouter.get('/:id', function(req, res) {
+  usersRouter.get('/:id', function(req, res) {
+    res.send({
+      'user': users[req.params.id-1]
+    });
+  });
+
+  // usersRouter.get('/:handle', function(req, res) {
+  //   res.send({
+  //     'user': users[0]
+  //   });
+  // });
+
+
+  usersRouter.put('/:id', function(req, res) {
     res.send({
       'user': {
         id: req.params.id
@@ -46,17 +59,9 @@ module.exports = function(app) {
     });
   });
 
-  userRouter.put('/:id', function(req, res) {
-    res.send({
-      'user': {
-        id: req.params.id
-      }
-    });
-  });
-
-  userRouter.delete('/:id', function(req, res) {
+  usersRouter.delete('/:id', function(req, res) {
     res.status(204).end();
   });
 
-  app.use('/api/user', userRouter);
+  app.use('/api/users', usersRouter);
 };
