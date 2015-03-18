@@ -6,7 +6,7 @@
 
       <div class="widget-header">
         <i class="icon-user"></i>
-        <h3>Your Account Settings {{firstName}}</h3>
+        <h3>Account Settings for {{firstName}}</h3>
       </div> <!-- /widget-header -->
 
       <div class="widget-content">
@@ -27,7 +27,7 @@
                   <div class="form-group">
                     <label for="handle" class="col-md-4">Handle</label>
                     <div class="col-md-8">
-                      <input type="text" class="form-control" id="handle" value="fayimora" disabled>
+                      {{input class="form-control" value=handle disabled=true}}
                       <p class="help-block">Your handle is for logging in and cannot be changed.</p>
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
@@ -36,7 +36,7 @@
                   <div class="form-group">
                     <label for="firstname" class="col-md-4">First Name</label>
                     <div class="col-md-8">
-                      <input type="text" class="form-control" id="firstname" value="Fayimora">
+                      {{input class="form-control" value=firstName}}
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
@@ -44,7 +44,7 @@
                   <div class="form-group">
                     <label class="col-md-4" for="lastname">Last Name</label>
                     <div class="col-md-8">
-                      <input type="text" class="form-control" id="lastname" value="Femi-Balogun">
+                      {{input class="form-control" value=lastName}}
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
@@ -52,7 +52,7 @@
                   <div class="form-group">
                     <label class="col-md-4" for="email">Email Address</label>
                     <div class="col-md-8">
-                      <input type="text" class="form-control" id="email" value="fayi@fayimora.com">
+                      {{input class="form-control" value=email}}
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
@@ -62,7 +62,7 @@
                   <div class="form-group">
                     <label class="col-md-4" for="password1">Password</label>
                     <div class="col-md-8">
-                      <input type="password" class="form-control" id="password1">
+                      {{input class="form-control" type="password"}}
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
@@ -70,7 +70,7 @@
                   <div class="form-group">
                     <label class="col-md-4" for="password2">Confirm</label>
                     <div class="col-md-8">
-                      <input type="password" class="form-control" id="password2">
+                      {{input class="form-control" type="password"}}
                     </div> <!-- /controls -->
                   </div> <!-- /control-group -->
 
