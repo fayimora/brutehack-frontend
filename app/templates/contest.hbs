@@ -1,7 +1,8 @@
-<div class="bs-example">
+<div>
   <ul class="nav nav-pills">
     {{#link-to 'contest.index' tagName='li' href=false}} {{link-to 'Problems' 'contest' this}} {{/link-to}}
     {{#link-to 'contest.submission' tagName='li' href=false}} {{link-to 'Submit Code' 'contest.submission'}} {{/link-to}}
+    {{#link-to 'contest.standings' tagName='li'}} {{link-to 'Standings' 'contest.standings'}} {{/link-to}}
   </ul>
 
   <div class="tab-content">

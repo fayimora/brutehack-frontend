@@ -18,6 +18,7 @@ Router.map(function() {
   this.resource('contest', {path: 'contest/:contest_id'}, function () {
     this.resource('problem', {path: 'problem/:problem_id'});
     this.route('submission', {path: 'submit'});
+    this.route('standings');
   });
 
   this.route('four-oh-four', {path: '/*path'});
