@@ -45,7 +45,7 @@ module.exports = function(environment) {
     };
 
     ENV['simple-auth-oauth2'] = {
-      serverTokenEndpoint: 'http://localhost:9000/oauth2/access_token'
+      serverTokenEndpoint: ENV.api_host+'/oauth2/access_token'
     };
 
   }
