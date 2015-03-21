@@ -36,7 +36,18 @@ module.exports = function(environment) {
         'img-src': "'self'",
         'style-src': "'self'",
         'media-src': "'self'"
-    }
+    };
+
+    ENV['simple-auth'] = {
+      store: 'simple-auth-session-store:local-storage',
+      crossOriginWhitelist: ['http://localhost:9000'],
+      authorizer: 'simple-auth-authorizer:oauth2-bearer',
+    };
+
+    ENV['simple-auth-oauth2'] = {
+      serverTokenEndpoint: 'http://localhost:9000/oauth2/access_token'
+    };
+
   }
 
   if (environment === 'test') {
@@ -54,6 +65,11 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.api_namespace = 'api';
     ENV.api_host = 'http://brutehack-backend.herokuapp.com';
+
+    ENV['simple-auth-oauth2'] = {
+      serverTokenEndpoint: '/oauth2/access_token',
+    };
+
   }
 
   return ENV;
