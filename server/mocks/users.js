@@ -38,18 +38,15 @@ module.exports = function(app) {
     res.status(201).end();
   });
 
-  usersRouter.get('/:id', function(req, res) {
+  usersRouter.get('/:handle', function(req, res) {
+    var handle = req.params.handle;
+    var u = users.filter(function(user) {
+      return user.handle === handle;
+    })[0];
     res.send({
-      'user': users[req.params.id-1]
+      'user': u
     });
   });
-
-  // usersRouter.get('/:handle', function(req, res) {
-  //   res.send({
-  //     'user': users[0]
-  //   });
-  // });
-
 
   usersRouter.put('/:id', function(req, res) {
     res.send({
