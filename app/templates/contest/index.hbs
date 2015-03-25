@@ -10,11 +10,11 @@
       </thead>
       <tbody>
 
-        {{#each p in problems}}
-      <tr>
-        <td>A</td>
-        <td><h4>{{#link-to 'problem' p}}{{p.title}}{{/link-to}}</h4> </td>
-      </tr>
+      {{#each p in problems}}
+        <tr>
+          <td>A</td>
+          <td><h4>{{#link-to 'problem' p}}{{p.title}}{{/link-to}}</h4> </td>
+        </tr>
       {{/each}}
       </tbody>
     </table>
