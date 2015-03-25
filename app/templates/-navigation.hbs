@@ -17,15 +17,19 @@
           <li class="dropdown">
             {{#link-to '' class="dropdown-toggle" data-toggle="dropdown"}}
               <i class="fa fa-user"></i>
-              Fayimora Femi-Balogun
+              {{#if session.isAuthenticated}}
+                {{session.currentUser.firstName}}
+              {{else}}
+                Guest
+              {{/if}}
               <b class="caret"></b>
             {{/link-to}}
 
             <ul class="dropdown-menu">
-              <li>{{link-to 'My Profile' 'user' session.currentUser.handle}}</li>
-              <li>{{link-to 'My Groups'}}</li>
-              <li class="divider"></li>
               {{#if session.isAuthenticated}}
+                <li>{{link-to 'My Profile' 'user' session.currentUser.handle}}</li>
+                <li>{{link-to 'My Groups'}}</li>
+                <li class="divider"></li>
                 <li><a {{ action 'invalidateSession' }}>Logout</a></li>
               {{else}}
                 <li>{{link-to 'Login' 'login'}}</li>
