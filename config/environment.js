@@ -26,7 +26,8 @@ module.exports = function(environment) {
     ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     ENV.APP.LOG_VIEW_LOOKUPS = true;
     ENV.api_namespace = 'api';
-    // ENV.api_host = 'http://localhost:9000';
+    ENV.api_host = 'http://localhost:4200';
+    ENV.api_endpoint = ENV.api_host+'/'+ENV.api_namespace
 
     ENV.contentSecurityPolicy = {
         'default-src': "'none'",
