@@ -1,9 +1,6 @@
 import Ember from "ember";
 import Session from "simple-auth/session";
-
-// export function initialize(#<{(| container, application |)}>#) {
-//   // application.inject('route', 'foo', 'service:foo');
-// }
+import config from '../config/environment';
 
 export default {
   name: 'custom-session',
@@ -16,9 +13,7 @@ export default {
         if(!Ember.isEmpty(accessToken)) {
           var self = this;
 
-          Ember.$.getJSON('http://localhost:9000/api/user/me',function(data) {
-            console.log("================================");
-            console.log(data);
+          Ember.$.getJSON(config.api_endpoint + '/user/me',function(data) {
             var user = container.lookup('store:main').push('user', data);
             self.set('currentUser', user);
           });
