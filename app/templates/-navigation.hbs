@@ -22,7 +22,7 @@
             {{/link-to}}
 
             <ul class="dropdown-menu">
-              <li>{{link-to 'My Profile' 'user'}}</li>
+              <li>{{link-to 'My Profile' 'user' session.currentUser.handle}}</li>
               <li>{{link-to 'My Groups'}}</li>
               <li class="divider"></li>
               {{#if session.isAuthenticated}}
