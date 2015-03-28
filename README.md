@@ -1,8 +1,7 @@
 [![Build Status](https://travis-ci.org/fayimora/brutehack-frontend.png)](https://travis-ci.org/fayimora/brutehack-frontend)
 # Brute-hack
 
-BruteHack is an open source application that is built mostly for colleges/universities to host
-programming competitions. This repository contains just the clientside application(Ember.js application).
+BruteHack's frontend.
 
 ## Installation
 
