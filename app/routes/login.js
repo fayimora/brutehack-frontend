@@ -6,7 +6,8 @@ export default Ember.Route.extend(UnauthenticatedRouteMixin, {
     authenticate: function() {
       var controller = this.get('controller');
       var credentials = controller.getProperties('identification', 'password');
-      this.get('session').authenticate('simple-auth-authenticator:oauth2-password-grant', credentials);
+      var session = this.get('session');
+      session.authenticate('simple-auth-authenticator:oauth2-password-grant', credentials);
     }
   }
 });
