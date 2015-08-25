@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/fayimora/brutehack-frontend.png)](https://travis-ci.org/fayimora/brutehack-frontend)
 # Brute-hack
 
-BruteHack's frontend.
+BruteHack's frontend. The backend can be found [here](https://github.com/fayimora/brutehack-backend).
 
 ## Installation
 
