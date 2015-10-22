@@ -39,3 +39,4 @@ Copyright 2013 by Fayimora Femi-Balogun and licensed under the MIT License. See 
 [LICENSE](https://github.com/fayimora/brutehack-frontend/blob/master/LICENSE) file for details.
 
 For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
+
