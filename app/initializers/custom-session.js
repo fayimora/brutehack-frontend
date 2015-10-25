@@ -2,6 +2,7 @@ import Ember from "ember";
 import Session from "simple-auth/session";
 import config from '../config/environment';
 
+// TODO: Update with proper syntax
 export default {
   name: 'custom-session',
   before: 'simple-auth',
