@@ -1,13 +1,3 @@
-{{partial "navigation"}}
+<h2 id="title">Welcome to Ember</h2>
 
-{{#unless inLoginOrSignup}}
-  {{partial "subnavigation"}}
-{{/unless}}
-
-<div class="main">
-  <div class="container">
-    {{outlet}}
-  </div>
-</div>
-
-{{partial "footer"}}
+{{outlet}}
