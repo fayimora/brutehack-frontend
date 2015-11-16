@@ -1,53 +1,42 @@
+[![Build Status](https://travis-ci.org/fayimora/brutehack-frontend.png)](https://travis-ci.org/fayimora/brutehack-frontend)
 # Brute-hack
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+BruteHack's frontend. The backend can be found [here](https://github.com/fayimora/brutehack-backend).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* Clone this repo or download the zip
+* Run `npm install`
+* Run `bower install`
 
-## Running / Development
+## Running
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `ember serve`
+* Visit the application at http://localhost:4200.
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
+## Running Tests
 
 * `ember test`
 * `ember test --server`
 
-### Building
+## Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* `ember build`
 
-### Deploying
+## Contributing
 
-Specify what it takes to deploy your app.
+I very much welcome contributions. All you have to do is:
 
-## Further Reading / Useful Links
+1. Fork this repository
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+## License
+
+Copyright 2015 by Fayimora Femi-Balogun and licensed under the MIT License. See included
+[LICENSE](https://github.com/fayimora/brutehack-frontend/blob/master/LICENSE) file for details.
+
+For more information on using ember-cli, visit [http://iamstef.net/ember-cli/](http://iamstef.net/ember-cli/).
 
